@@ -48,13 +48,21 @@ div img:last-child {
     padding-right: 0;
 }
 
-.featureSection {
+#featureSection {
     float: left;
 }
 
-.feature {
-    width: 480px;
-    height: 400px;
+#feature {
+    clear: both;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#feature article{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
 }
 
 h2 {
@@ -62,8 +70,9 @@ h2 {
     font-size: 25px;
 }
 
-div div div p {
-    overflow: scroll;
+p {
+    height: 275px;
+    overflow-y: scroll;
 }
 
 button {
